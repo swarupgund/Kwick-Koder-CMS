@@ -1,0 +1,36 @@
+p{
+  color: #6c757d;
+  text-align: justify;
+}
+li{
+  color: #6c757d;
+  padding: .2rem 0;
+}
+.course-head{
+  margin-top: 3rem;
+  padding-left: 2rem;
+  position: relative;
+}
+.course-img{
+  margin:0 10%;
+  height: 17.5rem;
+  width: 80%;
+  object-fit: cover;     
+  border-radius: 8px;
+}
+.section-head{
+  font-weight: 600;
+  padding: 1rem 0;
+  letter-spacing: .5px;
+}
+.ls-1{
+  letter-spacing: 1px;
+}
+
+.side-sect{
+  background-color: #eee;
+  padding: 1.5rem;
+}
+ul {
+  padding-left: 1rem !important;
+}

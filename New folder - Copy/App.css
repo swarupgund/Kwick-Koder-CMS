@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
+* {
+  font-family: "Poppins";
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+section{
+  padding:1.5rem 1rem;
+}
+
+/* navbar */
+.nav-link{ 
+  letter-spacing: 1px;
+  color: #000;
+  font-weight: 500;
+}
+
+/* login register form  */
+.form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 65vh;
+  padding: 2rem;
+}
+form{
+  width: 23rem;
+}
+input,textarea,select,.margin{
+  margin: 1rem 0;
+  border-radius: 0 !important;
+}
+.password-input {
+  position: relative;
+}
+.toggle-password {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+
+/* header  */
+header{
+  /* height: 35vh; */
+  background-color: #333;
+  text-align: center;
+  color: #fff;
+  padding: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.head{
+  letter-spacing: 3px;
+  line-height: 1.4;
+}
+
+
+.search{
+  max-width: 25rem;
+}
+.search input{
+  outline: none;
+  border: 1px solid #222;
+
+}
+/* blogs  */
+.courses,.blogs{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  }
+
+/* blog post box  */
+.blog-box,.course-box{
+  height: 300px;
+  width: 250px;
+  border-radius: .2rem;
+  margin: 1.5rem;
+  text-align: center;
+  background-color: #f9f9f9;
+  position: relative;
+  }
+.blog-box img,.course-box img{
+  height: 150px;
+  width: 100%;
+  border-radius: .2rem .2rem 0 0;
+  border-bottom:.3px solid #777 ;
+  }
+  .blog-time{
+    position: absolute;
+    bottom: 3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: .7rem;
+  }
+  .course-desc{
+    height: 125px;
+    width: 100%;
+  }
+  .blog-title ,.course-title{
+  letter-spacing: .5px;
+  line-height: 1.4;
+  margin: 1.2rem ;
+  }
+  .box-btn{
+  position: absolute;
+  bottom: 1rem;
+  left: 0;
+  margin-left: 10%;
+  width: 80%;
+  }
+
+/* blog post page  */
+.header-content{
+  max-width: 800px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.blog-header{
+  background-color: #333;
+    text-align: center;
+    color: white;
+    margin: 2.5rem 0;
+    letter-spacing: 1.5px;
+    text-transform: capitalize;
+}
+.header-content img{
+    margin: auto;
+    width: 60%;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+}
+.blog-content{
+    margin: auto;
+    margin-top: 4rem;
+    max-width: 800px;
+    padding: 0 2rem;
+    color: #555;
+    margin-bottom: 5rem;
+    text-align: justify;
+}
+
+/* footer  */
+footer{
+  background-color: #333;
+  margin-top: 2.5rem;
+  text-align: center ;
+  padding: 2rem 3rem 1rem;
+}
+footer .nav-link{
+  color: #fff;
+}
+footer a{
+  color: #fff;
+  text-decoration: none;
+}
+
+
+/* Quiz */
+
+.startBox h4,
+.startBox li{
+  text-align: left;
+}
+#questionNo,#time{
+  padding: .5rem 1.2rem;
+  margin-bottom: 0;
+}
+
+#time{
+  background-color: #e1f5fe;
+  width: 4.5rem;
+  float: right;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#q{
+  color: #222;
+  text-align: left;
+  letter-spacing: .5px;
+  line-height: 1.4;
+}
+.opt{
+  width: 100%;
+  margin-bottom: .5rem;
+  padding: .5rem 0 .5rem 1rem;
+  font-size: .9rem;
+  font-weight: 400;
+  text-align: left;
+  outline: none;
+  background: transparent;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  letter-spacing: 1px;
+}
+.opt:disabled{
+  color: #222;
+}
+.correct{
+  background-color: #e7f6d5;
+  border-color: #689f38;
+}
+.wrong{
+  background-color: #ffdde0;
+  border-color: #d32f2f;
+}
+
